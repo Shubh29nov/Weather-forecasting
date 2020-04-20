@@ -1,0 +1,165 @@
+<div id="weather" class="metric weather" style="opacity: 1;"><!-- Metric -->
+<div class="weather-toggle" title="Partly Cloudy">
+	<div class="metric-stat">
+			<span class="icon icon-weather" data-icon="E" title="Partly Cloudy"></span><span class="metric-stat-number">33</span><span class="weather-degree">°</span><span class="unit hide">c</span>
+	</div>
+	<span class="location metric-label data" title="">Chandigarh</span>
+	<span class="metric-message"></span>
+</div>
+
+
+<div class="pane weather-pane widget-pop nipple-top-right">
+
+	<!-- Main weather area -->
+	<section class="weather-current">
+
+		<!-- Header -->
+		<header class="weather-current-header">
+
+			<span class="weather-current-location " title="">
+				<span class="weather-location-name">Chandigarh</span>
+				<i class="loading-icon"></i>
+
+				<span class="weather-location-icon weather-location-edit"><i class="icon-edit"></i></span>
+				<span class="weather-location-icon weather-location-reset" title="Use location"><svg class="weather-location-reset-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.636 51.636"><path d="M51.353.914a.999.999 0 0 0-1.135-.213L.583 23.481a1 1 0 0 0 .252 1.895l22.263 3.731 2.545 21.038a1.002 1.002 0 0 0 1.889.324l24-48.415a1 1 0 0 0-.179-1.14z"></path></svg></span>
+
+				<span class="weather-current-conditions">Partly Cloudy</span>
+			</span>
+			<!-- Popup -->
+			<div class="pane-settings weather-settings">
+				<div class="pane-settings-icon-wrapper"><i class="icon-ellipsis pane-settings-icon"></i></div>
+				<div class="dropdown pane-settings-dropdown">
+					<ul class="dropdown-list">
+						<li class="toggle-hourly">
+							Hourly forecast
+							<span class="toggle-slider"><svg class="toggle-switch" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg></span>
+						</li>
+						<li class="toggle-details">
+							Extra weather info
+							<span class="toggle-slider"><svg class="toggle-switch" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg></span>
+						</li>
+						<li class="line"></li>
+						<li class="toggle-metric">
+							Metric units
+							<span class="toggle-slider on"><svg class="toggle-switch" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg></span>
+						</li>
+						<li class="weather-location-edit-menu">Edit location</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<div class="weather-current-temp-row">
+			<!-- Main temp -->
+			<div class="weather-current-temp-wrapper toggle-hourly">
+
+				<span class="icon icon-weather weather-current-icon" data-icon="E" title="Partly Cloudy"></span><span class="weather-current-temp">33°</span>
+			</div>
+
+			<!-- Main details -->
+		</div>
+
+
+		<!-- Extra weather info -->
+	</section>
+
+
+	<!-- 5-day advance forecast -->
+	<section class="weather-forecast weather-forecast-daily active">
+		<div class="weather-forecast-item weather-forecast-day" data-day="Friday" title="Thunderstorms">
+			<div class="weather-forecast-label">Fri</div>
+			<span class="icon icon-weather weather-forecast-icon" data-icon="P"></span>
+			<span class="weather-forecast-high">37°</span><span class="weather-forecast-low">29°</span>
+		</div>
+		<div class="weather-forecast-item weather-forecast-day" data-day="Saturday" title="Sunny">
+			<div class="weather-forecast-label">Sat</div>
+			<span class="icon icon-weather weather-forecast-icon" data-icon="B"></span>
+			<span class="weather-forecast-high">38°</span><span class="weather-forecast-low">28°</span>
+		</div>
+		<div class="weather-forecast-item weather-forecast-day" data-day="Sunday" title="Sunny">
+			<div class="weather-forecast-label">Sun</div>
+			<span class="icon icon-weather weather-forecast-icon" data-icon="B"></span>
+			<span class="weather-forecast-high">39°</span><span class="weather-forecast-low">29°</span>
+		</div>
+		<div class="weather-forecast-item weather-forecast-day" data-day="Monday" title="Sunny">
+			<div class="weather-forecast-label">Mon</div>
+			<span class="icon icon-weather weather-forecast-icon" data-icon="B"></span>
+			<span class="weather-forecast-high">39°</span><span class="weather-forecast-low">29°</span>
+		</div>
+		<div class="weather-forecast-item weather-forecast-day" data-day="Tuesday" title="Thunderstorms">
+			<div class="weather-forecast-label">Tue</div>
+			<span class="icon icon-weather weather-forecast-icon" data-icon="P"></span>
+			<span class="weather-forecast-high">38°</span><span class="weather-forecast-low">31°</span>
+		</div>
+	</section>
+</div>
+</div>
+<style>
+
+element.style {
+    opacity: 1;
+}
+.top-right .metric:first-child, .widget-bottom-right:last-child .toggle {
+    padding-right: 20px;
+}
+.weather {
+    position: relative;
+}
+.metric, .metric-item {
+    padding: 14px 10px 10px;
+    position: relative;
+    display: inline-block;
+    cursor: default;
+    text-align: right;
+    -webkit-user-select: none;
+    vertical-align: top;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.top-right {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: right;
+}
+<style>…</style>
+body, input, select, textarea, button {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media screen and (max-height: 700px)
+body {
+    font-size: 95%;
+}
+body, button, input, select, textarea {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #fff;
+    font-size: 1em;
+    text-shadow: 0 1px 5px rgba(0,0,0,.1);
+    transition: -webkit-filter .5s ease;
+}
+a, body {
+    color: #fff;
+}
+injected stylesheet
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 75%;
+}
+::-webkit-scrollbar {
+    height: 13px;
+    width: 13px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,.3);
+    background-clip: padding-box;
+    border: 3px solid transparent;
+    border-radius: 7px;
+}</style>
